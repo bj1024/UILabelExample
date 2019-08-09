@@ -28,7 +28,6 @@ class ViewController: UIViewController {
     "sed do eiusmod tempor",
     "incididunt ut labore et dolore magna aliqua",
     "Ut enim ad minim veniam",
-    "quis nostrud exercitation",
   ]
 
   var label1Str:String = "" {
@@ -63,7 +62,7 @@ class ViewController: UIViewController {
   func  setLabel(){
 
     label1Str = texts[curTextLines]
-    label0Str = texts[0..<curTextLines].joined(separator:"\n")
+    label0Str = texts[0...curTextLines].joined(separator:"\n")
 
 
     curTextLines += 1
