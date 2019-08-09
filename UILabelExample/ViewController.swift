@@ -5,23 +5,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-  @IBOutlet weak var lblLine1: UILabel!
-  @IBOutlet weak var lblLine0: UILabel!
+  @IBOutlet weak var lblLine1: UILabelRounded!
+  @IBOutlet weak var lblLine0: UILabelRounded!
 
-  @IBOutlet weak var lblTopHCenterLine1: UILabel!
-  @IBOutlet weak var lblTopHCenterLine0: UILabel!
+  @IBOutlet weak var lblTopHCenterLine1: UILabelRounded!
+  @IBOutlet weak var lblTopHCenterLine0: UILabelRounded!
 
-  @IBOutlet weak var lblBottomHCenterLine1: UILabel!
-  @IBOutlet weak var lblBottomHCenterLine0: UILabel!
+  @IBOutlet weak var lblBottomHCenterLine1: UILabelRounded!
+  @IBOutlet weak var lblBottomHCenterLine0: UILabelRounded!
 
-  @IBOutlet weak var lblTopLeadingLine1: UILabel!
-  @IBOutlet weak var lblTopLeadingLine0: UILabel!
+  @IBOutlet weak var lblTopLeadingLine1: UILabelRounded!
+  @IBOutlet weak var lblTopLeadingLine0: UILabelRounded!
 
-  @IBOutlet weak var lblTopTrailingLine1: UILabel!
-  @IBOutlet weak var lblTopTrailingLine0: UILabel!
+  @IBOutlet weak var lblTopTrailingLine1: UILabelRounded!
+  @IBOutlet weak var lblTopTrailingLine0: UILabelRounded!
 
   
-  var curTextLines:Int = 1
+  var curTextLines:Int = 0
   let texts:[String] = [
     "Lorem ipsum dolor sit amet",
     "consectetur adipiscing elit",
