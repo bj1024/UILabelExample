@@ -7,3 +7,15 @@ This is a result of how UILabel is resized, when UILabel numberOfLines is set to
 
 ![UILabel and autolayout](assets/uilabelsize.gif "UILabel and autolayout")
 
+# UILabel with corner radius and padding
+
+
+UILabelRounded is custom class of UILabel.
+This is a custom class for adding margins and rounded corners to UILabal.
+Checkout branch padding.
+[username/UILabelExample at padding](https://github.com/username/UILabelExample/tree/padding) .
+
+
+![UILabel and autolayout with corner radius and padding](assets/uilabelsize_padding.gif "UILabel and autolayout with corner radius and padding")
+
+
